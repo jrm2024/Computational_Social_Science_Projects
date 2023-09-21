@@ -1,0 +1,10 @@
+cd git
+git clone
+cd Computational_Social_Science_Projects
+mkdir Project1
+cd Project1
+touch myfile.txt
+nano myfile.txt
+git add
+git commit m- "text file with git commands"
+git push
