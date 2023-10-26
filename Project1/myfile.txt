@@ -1,10 +1,86 @@
-cd git
-git clone
-cd Computational_Social_Science_Projects
-mkdir Project1
-cd Project1
-touch myfile.txt
-nano myfile.txt
-git add
-git commit m- "text file with git commands"
-git push
+Last login: Thu Sep 21 10:52:39 on ttys001
+(base) jarett@Jaretts-MacBook-Air ~ % cd git
+(base) jarett@Jaretts-MacBook-Air git % Computational_Social_Science_Projects
+zsh: command not found: Computational_Social_Science_Projects
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % cd Project1               
+(base) jarett@Jaretts-MacBook-Air Project1 % git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --also-filter-submodules
+                          apply partial clone filters to submodules
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+    --bundle-uri <uri>    a URI for downloading bundles before fetching from origin remote
+
+(base) jarett@Jaretts-MacBook-Air Project1 % git clone 
+[https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git] --branch [jarett_branch] 
+--single-branch
+
+
+zsh: no matches found: [https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git]
+(base) jarett@Jaretts-MacBook-Air Project1 % git clone 
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git --branch jarett_branch 
+--single-branch 
+
+
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 29 (delta 5), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (29/29), 7.69 KiB | 7.69 MiB/s, done.
+Resolving deltas: 100% (5/5), done.
+(base) jarett@Jaretts-MacBook-Air Project1 % cd 
+/Users/jarett/git/Computational_Social_Science_Projects/Project1/GitHub-Collaboration-Practice
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % nano 
+/Users/jarett/git/Computational_Social_Science_Projects/Project1/GitHub-Collaboration-Practice/Group5_Project1.md
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % touch 
+jarett_branch_commands.txt
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % nano 
+jarett_branch_commands.txt
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % 
+
